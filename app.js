@@ -41,3 +41,10 @@ document.getElementById("btnCalcular").addEventListener("click", function () {
 
 });
 
+//Boton de limpiar
+document.getElementById("btnLimpiar").addEventListener("click", function () {
+document.getElementById("nota1").value = "";
+document.getElementById("nota2").value = "";
+document.getElementById("nota3").value = "";
+document.getElementById("resultado").textContent = "";
+});
